@@ -5,7 +5,7 @@
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 52rem;
+    height: 84rem;
 }
 
 .main {
@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 35rem;
+    height: 45rem;
 }
 
 .swiper-container {
@@ -64,7 +64,7 @@
     margin: 1rem auto;
     border-radius: .4rem;
     width: 95%;
-    height: 26rem;
+    height: 34rem;
     box-shadow: 3px 3px 10px var(--black);
     border: solid 3px var(--darkBlue1);
 }
@@ -116,13 +116,35 @@
     color: green;
 }
 
+.prices-message {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: var(--white);
+    border-radius: .4rem;
+    border: var(--darkBlue1) solid 3px;
+}
+
+.prices-message p {
+    color: var(--black);
+    font-size: 1.1rem;
+    padding: .5rem 2rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
 /* Media Querys */
+
+@media (max-width: 1024px) {
+    .hero {
+        height: 88rem;
+    }
+}
 
 
 @media (max-width: 768px) {
 
     .hero {
-        height: 57rem;
+        height: 95rem;
     }
 
     .prices {
@@ -134,7 +156,7 @@
     }
 
     .prices-content__card {
-        height: 30rem;
+        height: 35rem;
     }
 
 }
@@ -142,7 +164,7 @@
 @media (max-width: 540px) {
 
     .hero {
-        height: 64rem;
+        height: 105rem;
     }
 
     .main p {
@@ -155,13 +177,17 @@
 
     .prices-content__card {
         width: 90%;
-        height: 35rem;
+        height: 40rem;
+    }
+
+    .prices-message {
+        margin-top: 4rem;
     }
 }
 
 @media (max-width: 480px) {
     .hero {
-        height: 97rem
+        height: 152rem
     }
 
     .main p {
@@ -174,14 +200,19 @@
 
     .prices-content__card {
         width: 80%;
-        height: 56rem;
+        height: 61rem;
     }
+
+    .prices-message {
+        margin-top: 16rem;
+    }
+
 }
 
 @media (max-width: 375px) {
 
     .hero {
-        height: 100rem;
+        height: 158rem;
     }
 
     .prices {
@@ -189,7 +220,7 @@
     }
 
     .prices-content__card {
-        height: 62rem;
+        height: 66rem;
     }
 }
 

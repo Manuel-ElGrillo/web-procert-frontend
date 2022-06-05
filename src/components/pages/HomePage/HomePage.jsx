@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from "../../layout/Layout"
+import CTA from "../../CTA/CTA"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper"
 import priceImg from "../../../assets/img/dollar.png"
@@ -53,6 +54,8 @@ const HomePage = () => {
                           <li><strong>{"Profesional Titulado"} </strong> <span>{"(Bs 1000)"}</span></li>
                           <li><strong>{"Persona Natural"}</strong> <span>{"(Bs 1000)"}</span></li>
                         </ul>
+
+                        <CTA text={"Pedir más Información"}/>
                       
                     </div>
                   </SwiperSlide>
@@ -64,6 +67,8 @@ const HomePage = () => {
                     </div>
                       <h3>Certificados SSL</h3>
                       <p><strong>Standard SSL:</strong> {"Este tipo de certificado le ayudará a proteger su dominio www.su-dominio.com, y durante su emisión la empresa Wisekey ofrece procedimientos exhaustivos de autenticación (verificación de identidad y nombre de dominio). (Bs 1000) - Servicio con duración de 1 año."}</p>
+
+                      <CTA text={"Pedir más Información"}/>
                     </div>
                   </SwiperSlide>
 
@@ -79,6 +84,9 @@ const HomePage = () => {
                         <li><strong>{"Factura Electrónica"}</strong> <span>{"(Bs 1000)"}</span></li>
                         <li><strong>{"Banca Electrónica"}</strong> <span>{"(Bs 1000)"}</span></li>
                       </ul>
+
+                      <CTA text={"Pedir más Información"}/>
+
                     </div>
                   </SwiperSlide>                
 
@@ -96,6 +104,9 @@ const HomePage = () => {
                         <li>Módulo de firma para Escritorio</li>
                         <li>Firma en línea certificada</li>
                       </ul>
+
+                      <CTA text={"Pedir más Información"}/>
+
                     </div>
                   </SwiperSlide>
 
@@ -104,6 +115,21 @@ const HomePage = () => {
               </div>
 
             </div>
+          </div>
+
+          <div className='prices-message'>
+            <p>
+             <strong>*Motivado a la aplicación de la tasa oficial publicada por el Banco Central de Venezuela, la cual está sustentada en resolución gubernamental, nos vemos en la obligación del aumento del Certificado Electrónico.</strong> 
+            </p>
+
+            <p>
+              Adicional a la firma electrónica con validez legal, nuestros certificados cuentan con las siguientes funciones adicionales: <br />
+              - Correo electrónico seguro (Firma y Cifrado). <br />
+              - Autenticación a sistemas con certificados. <br />
+              - Inicio de sesión a equipos con certificados (solo para el caso de E-Token y Smart Card). <br />
+              <br />
+              <strong>Si desea obtener información sobre los descuentos por compras masivas de certificados, no dude en contactarnos.</strong>
+            </p>
           </div>
 
         </section>
