@@ -1,12 +1,12 @@
 import React from 'react'
 import "./CTA.css"
 
-const CTA = ({text}) => {
+const CTA = ({href, text}) => {
   return (
     <>
     
         <div className='cta'>
-            <a href="mailto:contacto@procert.net.ve">{text}</a>
+            <a href={href}>{text}</a>
         </div>
     
     </>

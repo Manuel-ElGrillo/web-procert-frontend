@@ -55,7 +55,8 @@ const HomePage = () => {
                           <li><strong>{"Persona Natural"}</strong> <span>{"(Bs 1000)"}</span></li>
                         </ul>
 
-                        <CTA text={"Pedir más Información"}/>
+                        <CTA text={"Pedir más Información"}
+                             href={"mailto:contacto@procert.net.ve"}/>
                       
                     </div>
                   </SwiperSlide>
@@ -68,7 +69,9 @@ const HomePage = () => {
                       <h3>Certificados SSL</h3>
                       <p><strong>Standard SSL:</strong> {"Este tipo de certificado le ayudará a proteger su dominio www.su-dominio.com, y durante su emisión la empresa Wisekey ofrece procedimientos exhaustivos de autenticación (verificación de identidad y nombre de dominio). (Bs 1000) - Servicio con duración de 1 año."}</p>
 
-                      <CTA text={"Pedir más Información"}/>
+                      <CTA text={"Pedir más Información"}
+                           href={"mailto:contacto@procert.net.ve"}/>
+
                     </div>
                   </SwiperSlide>
 
@@ -85,7 +88,8 @@ const HomePage = () => {
                         <li><strong>{"Banca Electrónica"}</strong> <span>{"(Bs 1000)"}</span></li>
                       </ul>
 
-                      <CTA text={"Pedir más Información"}/>
+                      <CTA text={"Pedir más Información"}
+                           href={"mailto:contacto@procert.net.ve"}/>
 
                     </div>
                   </SwiperSlide>                
@@ -105,7 +109,8 @@ const HomePage = () => {
                         <li>Firma en línea certificada</li>
                       </ul>
 
-                      <CTA text={"Pedir más Información"}/>
+                      <CTA text={"Pedir más Información"}
+                           href={"mailto:contacto@procert.net.ve"}/>
 
                     </div>
                   </SwiperSlide>
