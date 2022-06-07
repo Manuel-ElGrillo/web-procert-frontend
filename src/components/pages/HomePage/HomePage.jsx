@@ -3,10 +3,10 @@ import Layout from "../../layout/Layout"
 import CTA from "../../CTA/CTA"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper"
-import priceImg from "../../../assets/img/dollar.png"
+import certificateImg from "../../../assets/img/certificate.png"
+import qualityImg from "../../../assets/img/quality.png"
 import securityImg from "../../../assets/img/lock.png"
 import servicesImg from "../../../assets/img/service.png"
-import productsImg from "../../../assets/img/product.png"
 import "swiper/css"
 import "swiper/css/navigation"
 import "./HomePage.css"
@@ -42,21 +42,20 @@ const HomePage = () => {
                     <div className='prices-content__card'>
                       
                         <div className='prices-content__card-img-container'>
-                          <img src={priceImg} alt="Precios" />
+                          <img src={certificateImg} alt="Certificado" />
                         </div>
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis sit repellat esse accusamus assumenda! Porro laborum officiis assumenda ratione iste. Eligendi ad minus hic id adipisci quaerat laborum blanditiis.{"Descripción pendiente"} - Servicios con duración de 1 año c/u.</p>
+                        <h3>Certificados Digitales</h3>
                         <ul>
-                          <li><strong>{"Representante Legal de Empresa Privada"} </strong><span>{"(Bs 1000)"}</span></li>
-                          <li><strong>{"Representante Legal de Empresa Pública"} </strong><span>{"(Bs 1000)"}</span></li>
-                          <li><strong>{"Funcionario Público"}</strong> <span>{"(Bs 1000)"}</span></li>
-                          <li><strong>{"Empleado de Empresa"} </strong> <span>{"(Bs 1000)"}</span></li>
-                          <li><strong>{"Profesional Titulado"} </strong> <span>{"(Bs 1000)"}</span></li>
-                          <li><strong>{"Persona Natural"}</strong> <span>{"(Bs 1000)"}</span></li>
+                          <li><strong>{"Representante Legal de Empresa Privada"} </strong><span>{"(Consultar)"}</span> - 1 año de duración</li>
+                          <li><strong>{"Representante Legal de Empresa Pública"} </strong><span>{"(Consultar)"}</span> - 1 año de duración</li>
+                          <li><strong>{"Funcionario Público"}</strong> <span>{"($60 + IVA)"}</span> - 1 año de duración</li>
+                          <li><strong>{"Empleado de Empresa"} </strong> <span>{"($60 + IVA)"}</span> - 1 año de duración</li>
+                          <li><strong>{"Profesional Titulado"} </strong> <span>{"($60 + IVA)"}</span> - 1 año de duración</li>
+                          <li><strong>{"Persona Natural"}</strong> <span>{"($60 + IVA)"}</span> - 1 año de duración</li>
                         </ul>
 
-                        <CTA text={"Pedir más Información"}
-                             href={"mailto:contacto@procert.net.ve"}/>
+                        <CTA text={"Ver más Información"}
+                             href={"/compras"}/>
                       
                     </div>
                   </SwiperSlide>
@@ -67,9 +66,9 @@ const HomePage = () => {
                       <img src={securityImg} alt="SSL" />
                     </div>
                       <h3>Certificados SSL</h3>
-                      <p><strong>Standard SSL:</strong> {"Este tipo de certificado le ayudará a proteger su dominio www.su-dominio.com, y durante su emisión la empresa Wisekey ofrece procedimientos exhaustivos de autenticación (verificación de identidad y nombre de dominio). (Bs 1000) - Servicio con duración de 1 año."}</p>
+                      <p><strong>Standard SSL:</strong> {"Este tipo de certificado le ayudará a proteger su dominio www.su-dominio.com, y durante su emisión la empresa Wisekey ofrece procedimientos exhaustivos de autenticación (verificación de identidad y nombre de dominio). (Consultar precio) - Servicio con duración de 1 año."}</p>
 
-                      <CTA text={"Pedir más Información"}
+                      <CTA text={"Consultar Información"}
                            href={"mailto:contacto@procert.net.ve"}/>
 
                     </div>
@@ -78,18 +77,17 @@ const HomePage = () => {
                   <SwiperSlide>
                     <div className='prices-content__card'>
                       <div className='prices-content__card-img-container'>
-                        <img src={productsImg} alt="Productos" />
+                        <img src={qualityImg} alt="Más certificaciones" />
                       </div>
-                      <h3>Lorem Ipsum</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque officiis sit repellat esse accusamus assumenda! Porro laborum officiis assumenda ratione iste. Eligendi ad minus hic id adipisci quaerat laborum blanditiis.{"Descripción pendiente"} - Servicios con duración de 1 año c/u.</p>
+                      <h3>Más Certificaciones</h3>
                       <ul>
-                        <li><strong>{"Firma de Transacción"}</strong> <span>{"(Bs 1000)"}</span></li>
-                        <li><strong>{"Factura Electrónica"}</strong> <span>{"(Bs 1000)"}</span></li>
-                        <li><strong>{"Banca Electrónica"}</strong> <span>{"(Bs 1000)"}</span></li>
+                        <li><strong>{"Firma de Transacción"}</strong> <span>{"(Consultar)"}</span> - 1 año de duración</li>
+                        <li><strong>{"Factura Electrónica"}</strong> <span>{"(Consultar)"}</span> - 1 año de duración</li>
+                        <li><strong>{"Banca Electrónica"}</strong> <span>{"(Consultar)"}</span> - 1 año de duración</li>
                       </ul>
 
-                      <CTA text={"Pedir más Información"}
-                           href={"mailto:contacto@procert.net.ve"}/>
+                      <CTA text={"Ver más Información"}
+                           href={"/compras"}/>
 
                     </div>
                   </SwiperSlide>                
@@ -109,8 +107,8 @@ const HomePage = () => {
                         <li>Firma en línea certificada</li>
                       </ul>
 
-                      <CTA text={"Pedir más Información"}
-                           href={"mailto:contacto@procert.net.ve"}/>
+                      <CTA text={"Ver más Información"}
+                           href={"/servicios"}/>
 
                     </div>
                   </SwiperSlide>

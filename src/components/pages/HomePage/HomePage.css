@@ -91,23 +91,27 @@
 .prices-content__card h3::after {
     content: "";
     display: block;
-    margin: .3rem auto;
-    width: 12rem;
-    height: .3rem;
+    margin: .5rem auto;
+    width: 17rem;
+    height: .2rem;
     background-color: var(--darkBlue1);
 }
 
 .prices-content__card p {
     color: var(--black);
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: justify;
-    padding: 0 2rem;
+    padding: 2rem;
     line-height: 1.6;
     position: relative;
 }
 
+.prices-content__card ul {
+    margin: 3rem 0;
+}
+
 .prices-content__card li {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--black);
     padding: .5rem 3rem 0 0;
 }
@@ -203,6 +207,10 @@
         height: 61rem;
     }
 
+    .prices-content__card h3::after {
+        width: 14rem;
+    }
+
     .prices-message {
         margin-top: 16rem;
     }
@@ -221,6 +229,10 @@
 
     .prices-content__card {
         height: 66rem;
+    }
+
+    .prices-content__card h3::after {
+        width: 11rem;
     }
 }
 
