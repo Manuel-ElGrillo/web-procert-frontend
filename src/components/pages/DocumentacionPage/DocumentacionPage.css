@@ -1,0 +1,141 @@
+.documents {
+    background: url("../../../assets/img/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.documents h1 {
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--darkBlue1);
+}
+
+.documents h1::after {
+    content: "";
+    display: block;
+    margin: .5rem auto;
+    width: 73rem;
+    height: .2rem;
+    background-color: var(--darkBlue1);
+}
+
+.documents p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem 6rem;
+    line-height: 1.5;
+}
+
+.documents-gacetas__container, .contracts__container, .documents-certifications__container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.documents-gacetas__container h2, .contracts__container h2, .documents-certifications__container  h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.documents-gacetas, .documents-contracts, .documents-certifications {
+    border: solid 1px var(--black);
+    border-radius: .4rem;
+    padding: 1rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.documents-gacetas p, .documents-contracts p, .documents-certifications p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.documents-gacetas a, .documents-contracts a, .documents-certifications a {
+    background-color: var(--green1);
+    color: var(--black);
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.documents-gacetas a:hover, .documents-contracts a:hover, .documents-certifications a:hover {
+    background-color: #64a538;
+    color: var(--white);
+}
+
+/* Media Querys */
+
+@media (max-width: 1024px) {
+    .documents h1 {
+        margin: 2rem;
+    }
+
+    .documents h1::after {
+        content: "";
+        display: block;
+        margin: .5rem auto;
+        width: 50rem;
+    }
+
+    .documents-gacetas p, .documents-contracts p, .documents-certifications p {
+        margin: 0 1rem;
+        font-weight: 700;
+    }
+
+    .documents-gacetas a, .documents-contracts a, .documents-certifications a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .documents h1::after {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .documents h1::after {
+        width: 30rem;
+    }
+
+    .documents-gacetas, .documents-contracts, .documents-certifications {
+        flex-direction: column;
+    }
+
+    .documents-gacetas p, .documents-contracts p, .documents-certifications p {
+        margin: .5rem 0;
+    }
+
+    .documents-gacetas a, .documents-contracts a, .documents-certifications a {
+        margin: .5rem 0;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .documents h1::after {
+        width: 20rem;
+    }
+
+    .documents p {
+        margin: 1rem 2rem;
+    }
+
+    .documents-gacetas p, .documents-contracts p, .documents-certifications p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .documents h1::after {
+        width: 15rem;
+    }
+}

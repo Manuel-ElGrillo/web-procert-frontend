@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from "../../layout/Layout"
 import CTA from "../../CTA/CTA"
-import { Link } from 'react-router-dom'
 import gestionDigitalImg from "../../../assets/img/gestion-digital.png"
 import otpImg from "../../../assets/img/otp.jpg"
 import sigeceImg from "../../../assets/img/sigece.png"
@@ -57,7 +56,7 @@ const ServiciosPage = () => {
                 <div>
                   <h3>Sistema Integrado de Generación de Comprobantes Electrónicos</h3>
                   <p>Es una aplicación Web, utilizada como herramienta en la gestión administrativa y tributaria que permite gestionar y enviar en tiempo real las facturas y demas comprobantes electrónicos generados</p>
-                  <Link to={"/documentacion"}>Descargue nuestro archivo PDF para más información</Link>
+                  <a href="/documents/FacturaElectronica.pdf">Descargue nuestro archivo PDF para más información</a>
                 </div>
                 <img src={sigeceImg} alt="SIGECE" />
               </div>

@@ -1,0 +1,15 @@
+.ssl {
+    border-bottom: solid 1px var(--black);
+}
+
+.ssl ul li {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 1rem 0;
+}
+
+.ssl ul li span {
+    font-weight: 700;
+    border-bottom: solid 2px var(--darkBlue2);
+}

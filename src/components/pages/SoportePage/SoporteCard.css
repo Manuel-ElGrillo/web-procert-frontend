@@ -1,0 +1,32 @@
+.support-card {
+    background: linear-gradient(135deg, var(--white) 0%, var(--white2) 85%, var(--darkBlue1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    padding: 2rem 1rem;
+    box-shadow: 3px 3px 10px var(--black);
+    border: solid 3px var(--darkBlue1);
+    border-radius: .4rem;
+}
+
+.support-card__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.support-card__img img {
+    width: 4.5rem;
+}
+
+.support-card p {
+    font-size: 1.2rem;
+    border-bottom: solid 1px var(--darkBlue1);
+}
+
+.support-card span {
+    display: block;
+    font-size: 1rem;
+    margin: .2rem 0;
+}

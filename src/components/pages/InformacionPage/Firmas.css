@@ -1,0 +1,32 @@
+.signatures {
+    border-bottom: solid 1px var(--black);
+    padding-bottom: 2rem;
+}
+
+.signatures-content h3 {
+    font-size: 1.3rem;
+    border-bottom: solid 1px var(--darkBlue1);
+    padding-bottom: .3rem;
+    margin-left: 1rem;
+    width: fit-content;
+}
+
+.signatures-content h4 {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
+.signatures-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.signatures-content ul {
+    margin-bottom: 2rem;
+}
+
+.signatures-content li {
+    font-size: 1rem;
+    padding: .4rem 0;
+}

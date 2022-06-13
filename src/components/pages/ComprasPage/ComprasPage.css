@@ -1,0 +1,81 @@
+.purchases {
+    background: url("../../../assets/img/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 2rem;
+}
+
+.purchases h1 {
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+    color: var(--darkBlue1);
+}
+
+.purchases h1::after {
+    content: "";
+    display: block;
+    margin: .5rem auto;
+    width: 22rem;
+    height: .2rem;
+    background-color: var(--darkBlue1);
+}
+
+.purchases h2 {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.purchases-content, .purchases-prices {
+    width: 90%;
+    margin: 2rem auto;
+    background-color: var(--white2);
+    padding: 1rem;
+    border-radius: .4rem;
+    border: solid 2px var(--darkBlue1);
+    box-shadow: 1px 2px 7px var(--black);
+}
+
+.purchases-content h3, .purchases-prices h3 {
+    font-size: 1.2rem;
+    border-bottom: solid 2px var(--darkBlue1);
+    padding-bottom: .3rem;
+    width: fit-content;
+}
+
+.purchases-content li, .purchases-content p, .purchases-prices li, .purchases-prices p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.purchases-prices ul li {
+    margin-bottom: 1rem;
+}
+
+.purchases-prices ul li span {
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-bottom: solid 2px var(--darkBlue1);
+    padding-bottom: .2rem;
+}
+
+.CTA-AR a {
+    background-color: var(--green1);
+    display: block;
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.6rem;
+    transition: all 200ms;
+}
+
+.CTA-AR a:hover {
+    color: var(--white);
+    background-color: #64a538;
+}

@@ -1,0 +1,182 @@
+/* Support */
+
+.support {
+    background: url("../../../assets/img/bg-1.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.support h1 {
+    margin: 2rem 0;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--darkBlue1);
+}
+
+.support h1::after {
+    content: "";
+    display: block;
+    margin: .5rem auto;
+    width: 10rem;
+    height: .2rem;
+    background-color: var(--darkBlue1);
+}
+
+.support-container {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.support-content p {
+    font-size: 1.2rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.support-cards__row1 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.support-cards__row2 {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.support-card__row3 {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.support-manuals {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.support-manuals h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+/* Manuals */
+
+.manual {
+    border: solid 1px var(--black);
+    border-radius: .4rem;
+    padding: 1rem;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manual p {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.manual a {
+    background-color: var(--green1);
+    color: var(--black);
+    font-size: 1.2rem;
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+.manual a:hover {
+    background-color: #64a538;
+    color: var(--white);
+}
+
+/* Tutorials */
+
+.CTA-tutorials {
+    background: url("../../../../src/assets/img/bg-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 25rem;
+    margin: 0 auto;
+    border-radius: .4rem;
+    border: solid 2px var(--blue1);
+    display: grid;
+    place-items: center;
+}
+
+.CTA-tutorials img {
+    width: 10rem;
+    height: 12rem;
+}
+
+.CTA-tutorials a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    background-color: var(--green1);
+    padding: 1rem 3rem;
+    border-radius: .4rem;
+    color: var(--black);
+    margin-top: -5rem;
+    transition: all 200ms;
+}
+
+.CTA-tutorials a:hover {
+    background-color: #64a538;
+    color: var(--white);
+}
+
+/* Requirements */
+
+.requirements {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+
+.requirements p {
+    font-size: 1.2rem;
+}
+
+.requirements h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+}
+
+.requirements__e-sign h3, .requirements__security h3 {
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+/* Certifications */
+
+.requirements-links a {
+    display: block;
+    background-color: var(--blue1);
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    color: var(--white);
+    font-size: 1.4rem;
+    text-decoration: none;
+    border-radius: .4rem;
+    transition: all 200ms;
+}
+
+.requirements-links a:hover {
+    background-color: var(--darkBlue2);
+    color: var(--white2);
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.info {
+    background: url("../../../assets/img/bg-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.info-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info-container h2 {
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    padding-bottom: .6rem;
+    border-bottom: solid 5px var(--darkBlue1);
+}

@@ -1,18 +1,34 @@
 import React from 'react'
 import Layout from "../../layout/Layout"
+import Firmas from './Firmas'
+import FAQ from './FAQ'
+import SSL from './SSL'
+import Gestion from './Gestion'
+import "./InformacionPage.css"
 
 const InformacionPage = () => {
-
-  const h1Styles = {
-    textAlign: "center",
-    fontSize: "3rem"
-  }
 
   return (
     <>
 
       <Layout>
-        <h1 style={h1Styles}>🚧Sección en construcción 👷🏻‍♂️🚧</h1>
+
+        <section className="info">
+
+          <div className="info-container">
+
+            <Firmas/>
+
+            <FAQ/>
+
+            <SSL/>
+
+            <Gestion/>
+
+          </div>
+
+        </section>
+        
       </Layout>
     
     </>

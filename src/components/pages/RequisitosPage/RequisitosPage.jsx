@@ -1,0 +1,23 @@
+import React from 'react'
+import Layout from '../../layout/Layout'
+import "./RequisitosPage.css"
+
+const RequisitosPage = () => {
+
+    const h1Styles = {
+        textAlign: "center",
+        fontSize: "3rem"
+      }
+
+  return (
+    <>
+    
+    <Layout>
+        <h1 style={h1Styles}>🚧Sección en construcción 👷🏻‍♂️🚧</h1>
+      </Layout>
+
+    </>
+  )
+}
+
+export default RequisitosPage

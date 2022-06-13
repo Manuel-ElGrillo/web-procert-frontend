@@ -12,6 +12,10 @@ import MisionPage from "./components/pages/NosotrosPages/MisionPage"
 import ValoresPage from "./components/pages/NosotrosPages/ValoresPage"
 import VisionPage from "./components/pages/NosotrosPages/VisionPage"
 
+import RequisitosPage from "../src/components/pages/RequisitosPage/RequisitosPage"
+import TutorialesPage from "../src/components/pages/TutorialesPage/TutorialesPage"
+import SistemaARPage from "../src/components/pages/SistemaARPage/SistemaARPage"
+
 import EnHomePage from "./components/pages/english/EN-HomePage/EnHomePage"
 
 import "./App.css"
@@ -39,6 +43,11 @@ function App() {
           <Route path="/vision" element={<VisionPage/>}/>
           <Route path="/valores" element={<ValoresPage/>}/>
           <Route path="/hsm" element={<HSMPage/>}/>
+
+          <Route  path="/requisitos" element={<RequisitosPage/>}/>
+          <Route  path="/tutoriales" element={<TutorialesPage/>}/>
+
+          <Route path="/sistemaAR" element={<SistemaARPage/>}/>
 
           {/* Rutas de la versión en inglés */}
 

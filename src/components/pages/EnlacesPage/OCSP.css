@@ -1,0 +1,23 @@
+.ocsp {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.ocsp h2 {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.ocsp h3 {
+    font-size: 1.2rem;
+}
+
+.ocsp p, .ocsp ol li {
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.ocsp ol li {
+    margin: 1rem 0;
+}
