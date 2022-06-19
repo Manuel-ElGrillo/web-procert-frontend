@@ -120,6 +120,24 @@
     color: green;
 }
 
+.prices-content__card-link {
+    display: block;
+    width: fit-content;
+    background-color: var(--green1);
+    padding: 1rem 2rem;
+    border-radius: .4rem;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: all 200ms;
+    margin: 0 auto;
+}
+
+.prices-content__card-link:hover {
+    background-color: #64a538;
+    color: var(--white);
+}
+
 .prices-message {
     width: 80%;
     margin: 1rem auto;

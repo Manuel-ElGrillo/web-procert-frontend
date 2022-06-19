@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from "react-router-hash-link"
 
 import Layout from "../../layout/Layout"
 import SoporteCard from './SoporteCard'
@@ -156,10 +157,10 @@ const SoportePage = () => {
               <div className='requirements-links'>
                 {
                   CFE.map ( certification => (
-                    <Link to={certification.href} 
+                    <HashLink to={certification.href} 
                           key={certification.id}>
                             {certification.title}
-                    </Link>
+                    </HashLink>
                   ))
                 }
               </div>
@@ -173,10 +174,10 @@ const SoportePage = () => {
               <div className='requirements-links'>
                 {
                   securityCerts.map ( cert => (
-                    <Link to={cert.href}
+                    <HashLink to={cert.href}
                           key={cert.id}>
                             {cert.title}
-                    </Link>
+                    </HashLink>
                   ))
                 }
               </div>

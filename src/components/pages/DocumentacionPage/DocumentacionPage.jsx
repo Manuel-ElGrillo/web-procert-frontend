@@ -27,7 +27,7 @@ const DocumentacionPage = () => {
 
             {
               gacetas.map(gaceta => (
-                <div id={gaceta.id}
+                <div key={gaceta.id}
                      className="documents-gacetas">
                   <p>{gaceta.title}</p>
                   <a href={gaceta.archive}>Ver Gaceta</a>
@@ -55,7 +55,7 @@ const DocumentacionPage = () => {
             <div>
               {
                 declarations.map ( declaration => (
-                  <div id={declaration.id}
+                  <div key={declaration.id}
                        className='documents-certifications'>
                     <p>{declaration.title}</p>
                     <a href={declaration.archive}>{declaration.text}</a>

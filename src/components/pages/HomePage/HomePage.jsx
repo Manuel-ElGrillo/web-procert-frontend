@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import Layout from "../../layout/Layout"
 import CTA from "../../CTA/CTA"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -54,8 +55,7 @@ const HomePage = () => {
                           <li><strong>{"Persona Natural"}</strong> <span>{"($60 + IVA)"}</span> - 1 año de duración</li>
                         </ul>
 
-                        <CTA text={"Ver más Información"}
-                             href={"/compras"}/>
+                        <Link to={"/compras"} className="prices-content__card-link">Ver más Información</Link>
                       
                     </div>
                   </SwiperSlide>
@@ -86,8 +86,7 @@ const HomePage = () => {
                         <li><strong>{"Banca Electrónica"}</strong> <span>{"(Consultar)"}</span> - 1 año de duración</li>
                       </ul>
 
-                      <CTA text={"Ver más Información"}
-                           href={"/compras"}/>
+                      <Link to={"/compras"} className="prices-content__card-link">Ver más Información</Link>
 
                     </div>
                   </SwiperSlide>                
@@ -107,8 +106,7 @@ const HomePage = () => {
                         <li>Firma en línea certificada</li>
                       </ul>
 
-                      <CTA text={"Ver más Información"}
-                           href={"/servicios"}/>
+                      <Link to={"/servicios"} className="prices-content__card-link">Ver más Información</Link>
 
                     </div>
                   </SwiperSlide>

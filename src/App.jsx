@@ -6,6 +6,7 @@ import InformacionPage from "../src/components/pages/InformacionPage/Informacion
 import ServiciosPage from "../src/components/pages/ServiciosPage/ServiciosPage"
 import SoportePage from "../src/components/pages/SoportePage/SoportePage"
 import DocumentacionPage from "../src/components/pages/DocumentacionPage/DocumentacionPage"
+import NotFoundPage from "./components/pages/NotFoundPage/NotFoundPage"
 
 import HSMPage from "./components/pages/NosotrosPages/HSMPage"
 import MisionPage from "./components/pages/NosotrosPages/MisionPage"
@@ -36,6 +37,9 @@ function App() {
           <Route path="/servicios" element={<ServiciosPage/>}/>
           <Route path="/soporte" element={<SoportePage/>}/>
           <Route path="/documentacion" element={<DocumentacionPage/>}/>
+          <Route path="*" element={<NotFoundPage title="Página no encontrada"
+                                                 href={"/"}
+                                                 linkText="Volver"/>}/>
 
           {/* Rutas secundarias */}
 

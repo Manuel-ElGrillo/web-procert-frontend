@@ -1,0 +1,38 @@
+.not-found {
+    background: url("../../../assets/img/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.not-found__content {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.not-found__content h1 {
+    font-size: 2rem;
+    margin-top: -12rem;
+}
+
+.not-found__content img {
+    width: 10rem;
+    height: 10rem;
+    margin: 0;
+}
+
+.not-found__content a {
+    font-size: 1.6rem;
+    margin-top: -20rem;
+    text-decoration: none;
+    background-color: var(--green1);
+    padding: 1rem 4rem;
+    border-radius: .4rem;
+    color: var(--black);
+}
+
+.not-found__content a:hover {
+    background-color: #64a538;
+    color: var(--white);
+}
