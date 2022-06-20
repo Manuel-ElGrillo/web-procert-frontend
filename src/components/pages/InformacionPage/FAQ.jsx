@@ -108,7 +108,7 @@ const FAQ = () => {
   return (
     <>
     
-        <section className="faq">
+        <section className="faq" id='faq'>
 
             <h2>Preguntas Frecuentes</h2>
 
