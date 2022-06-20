@@ -15,9 +15,6 @@ import VisionPage from "./components/pages/NosotrosPages/VisionPage"
 
 import RequisitosPage from "../src/components/pages/RequisitosPage/RequisitosPage"
 import TutorialesPage from "../src/components/pages/TutorialesPage/TutorialesPage"
-import SistemaARPage from "../src/components/pages/SistemaARPage/SistemaARPage"
-
-import EnHomePage from "./components/pages/english/EN-HomePage/EnHomePage"
 
 import "./App.css"
 
@@ -51,11 +48,6 @@ function App() {
           <Route  path="/requisitos" element={<RequisitosPage/>}/>
           <Route  path="/tutoriales" element={<TutorialesPage/>}/>
 
-          <Route path="/sistemaAR" element={<SistemaARPage/>}/>
-
-          {/* Rutas de la versión en inglés */}
-
-          <Route path="/en" element={<EnHomePage/>}/>
         </Routes>
       </BrowserRouter>
     
