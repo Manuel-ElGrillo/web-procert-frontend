@@ -158,7 +158,7 @@
 
 @media (max-width: 1024px) {
     .hero {
-        height: 88rem;
+        height: 100rem;
     }
 }
 
@@ -166,7 +166,7 @@
 @media (max-width: 768px) {
 
     .hero {
-        height: 95rem;
+        height: 105rem;
     }
 
     .prices {
@@ -185,31 +185,31 @@
 
 @media (max-width: 540px) {
 
-    .hero {
-        height: 105rem;
+    .prices {
+        height: 26rem;
     }
 
     .main p {
         width: 30rem;
     }
 
-    .prices {
-        padding-top: 4rem;
-    }
-
     .prices-content__card {
         width: 90%;
-        height: 40rem;
+        height: 15rem;
+    }
+
+    .prices-content__card ul, .prices-content__card p {
+        display: none;
     }
 
     .prices-message {
-        margin-top: 4rem;
+        margin-top: 0;
     }
 }
 
 @media (max-width: 480px) {
     .hero {
-        height: 152rem
+        height: 158rem
     }
 
     .main p {
@@ -217,20 +217,19 @@
     }
 
     .prices {
-        padding-top: 17rem;
+        margin-bottom: 2rem;
     }
 
     .prices-content__card {
         width: 80%;
-        height: 61rem;
     }
 
     .prices-content__card h3::after {
         width: 14rem;
     }
 
-    .prices-message {
-        margin-top: 16rem;
+    .prices-content__card a {
+        text-align: center;
     }
 
 }
@@ -238,16 +237,12 @@
 @media (max-width: 375px) {
 
     .hero {
-        height: 158rem;
-    }
-
-    .prices {
-        padding-top: 19rem;
+        height: 160rem;
     }
 
     .prices-content__card {
-        height: 66rem;
-    }
+        height: 16rem;
+    }    
 
     .prices-content__card h3::after {
         width: 11rem;
@@ -257,18 +252,11 @@
 @media (max-width: 280px) {
 
     .hero {
-        height: 93rem;
+        height: 200rem;
     }
 
     .main p {
         width: 15rem;
     }
 
-    .prices {
-        padding-top: 13rem;
-    }
-
-    .prices-content__card {
-        height: 50rem;
-    }
 }

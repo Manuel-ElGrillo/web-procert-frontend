@@ -180,3 +180,38 @@
     color: var(--white2);
     cursor: pointer;
 }
+
+/* Media Querys */
+
+@media (max-width: 768px) {
+    .support-cards__row1 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    
+    .support-cards__row2 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+
+    .manual a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .manual p {
+        text-align: center;
+        padding: 0 .3rem;
+    }
+
+    .CTA-tutorials a {
+        text-align: center;
+        padding: 1rem;
+        width: 80%;
+    }
+}

@@ -79,3 +79,9 @@
     color: var(--white);
     background-color: #64a538;
 }
+
+@media (max-width: 540px) {
+    .CTA-AR a {
+        width: 80%;
+    }
+}

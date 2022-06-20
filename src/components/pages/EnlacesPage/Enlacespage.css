@@ -78,3 +78,15 @@
     background-color: #64a538;
     color: var(--white2);
 }
+
+/* Media Querys */
+
+@media (max-width: 768px) {
+    .links-content__info {
+        flex-direction: column;
+    }
+
+    .links-content__info-downloads {
+        margin: 1rem 0;
+    }
+}

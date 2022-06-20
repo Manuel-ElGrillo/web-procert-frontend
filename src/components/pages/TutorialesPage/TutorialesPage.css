@@ -44,3 +44,21 @@
     width: 100%;
     height: 35rem;
 }
+
+/* Media QUerys */
+
+@media (max-width: 540px) {
+    .tutorials {
+        grid-template-columns:repeat(100% 100%);
+    }
+
+    .tutorials__links-container {
+        overflow-x: scroll;
+    }
+
+    .tutorials__links-container button {
+        width: fit-content;
+        padding: 1rem;
+        margin: 1rem .5rem;
+    }
+}

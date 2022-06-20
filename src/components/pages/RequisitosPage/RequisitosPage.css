@@ -79,3 +79,25 @@
     background-color: var(--blue1)!important;
     color: var(--white)!important;
 }
+
+/* Media Querys */
+
+@media (max-width: 540px) {
+
+    .requirements-page h1::after {
+        width: 22rem;
+    }
+    .requirements-page__content {
+        width: 80%;
+    }
+
+    .requirements-page__content-links {
+        flex-direction: column;
+    }
+
+    .requirements-page__content-links a {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
