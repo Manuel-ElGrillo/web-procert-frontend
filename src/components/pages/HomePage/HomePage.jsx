@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Layout from "../../layout/Layout"
 import CTA from "../../CTA/CTA"
+import SecundaryNavBar from './SecundaryNavBar';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper"
 import certificateImg from "../../../assets/img/certificate.png"
@@ -24,6 +25,8 @@ const HomePage = () => {
             <h1>PROCERT</h1>
             <p>Especialistas en el campo de la tecnología PKI, desarrollo de soluciones informáticas con uso intensivo de la firma electrónica en el ámbito de negocio, comercio, gestión pública y privada.</p>
           </div>
+
+          <SecundaryNavBar />
 
           <div className='prices__container'>
 
