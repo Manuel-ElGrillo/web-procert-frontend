@@ -23,6 +23,7 @@ function App() {
     <>
     
       <BrowserRouter>
+
         <Routes>
 
           {/* Rutas Principales */}
@@ -49,6 +50,7 @@ function App() {
           <Route  path="/tutoriales" element={<TutorialesPage/>}/>
 
         </Routes>
+        
       </BrowserRouter>
     
     </>
