@@ -4,13 +4,14 @@ import Layout from "../../layout/Layout"
 import CTA from "../../CTA/CTA"
 import SecundaryNavBar from './SecundaryNavBar';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from "swiper"
+import { Navigation, Pagination, Autoplay } from "swiper"
 import certificateImg from "../../../assets/img/certificate.png"
 import qualityImg from "../../../assets/img/quality.png"
 import securityImg from "../../../assets/img/lock.png"
 import servicesImg from "../../../assets/img/service.png"
 import "swiper/css"
 import "swiper/css/navigation"
+import "swiper/css/pagination"
 import "./HomePage.css"
 
 const HomePage = () => {
@@ -26,7 +27,16 @@ const HomePage = () => {
             <p>Especialistas en el campo de la tecnología PKI, desarrollo de soluciones informáticas con uso intensivo de la firma electrónica en el ámbito de negocio, comercio, gestión pública y privada.</p>
           </div>
 
-          <SecundaryNavBar />
+          <SecundaryNavBar reqHref={"/requisitos"} 
+                           reqText={"Requisitos"}
+                           certHref={"https://ura.procert.net.ve/pscprocert/cadena.p7b"} 
+                           certText={"Certificado Raíz SUSCERT"}
+                           faqHref={"/informacion#faq"} 
+                           faqText={"FAQ"}
+                           revokedHref={"https://ura.procert.net.ve/lcr/procertca.crl"} 
+                           revokedText={"Lista de Certificados Revocados"}
+                           tutorialHref={"/tutoriales"}
+                           tutorialText={"Tutoriales"} />
 
           <div className='prices__container'>
 
@@ -38,9 +48,16 @@ const HomePage = () => {
 
                 <Swiper className='prices-content'
                         navigation={true}
-                        modules={[Navigation]}
+                        modules={[Navigation, Autoplay, Pagination]}
                         spaceBetween={10}
-                        slidesPerView={1}>
+                        slidesPerView={1}
+                        autoplay={{
+                          delay: 3500,
+                          disableOnInteraction: false,
+                        }}
+                        pagination={{
+                          clickable: true,
+                        }}>
 
                   <SwiperSlide>
                     <div className='prices-content__card'>

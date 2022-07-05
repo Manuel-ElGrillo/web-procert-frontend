@@ -15,6 +15,10 @@ const ComprasPage = () => {
 
           <h1>Compra de Certificados</h1>
 
+          <div className='CTA-AR'>
+            <Link to={"/sistemaAR"}>Ingresar al Sistema AR</Link>
+          </div>
+
           <h2>Pasos para la solicitud de un Certificado Electrónico</h2>
 
           <div className="purchases-content">
@@ -38,6 +42,9 @@ const ComprasPage = () => {
               <li>En un lapso no mayor a 5 días hábiles recibirá por correo electrónico su certificado digital</li>
 
             </ol>
+
+            <CTA text={"Ingresar al Sistema de Certificación"}
+                 href={"https://ura.procert.net.ve/ura/user/Logon.aspx"}/>
 
           </div>
 
@@ -127,9 +134,7 @@ const ComprasPage = () => {
 
           </div>
 
-          <div className='CTA-AR'>
-            <Link to={"/sistemaAR"}>Ingresar al Sistema AR</Link>
-          </div>
+          
 
         </section>
 

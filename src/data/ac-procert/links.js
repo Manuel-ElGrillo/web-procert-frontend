@@ -12,15 +12,6 @@ export const acLinks = [
         id: "link-001"
     },
 
-    // {
-    //     text: "Certificado de la AC Subordinada PROCERT: A través de los siguientes enlaces podrá realizar la descarga del certificado de la Autoridad de Certificación Subordinada PROCERT.",
-    //     btn: "https://ura.procert.net.ve/pscprocert/Procert.cer",
-    //     btn2: "https://ura.procert.net.ve/pscprocert/PSCProcert.cer",
-    //     textBtn: "Ver Certificado",
-    //     textBtn2: "Ver Certificado",
-    //     id: "link-002"
-    // },
-
     {
         text: "Certificado de la AC Subordinada AR FII: A través del siguiente enlace podrá realizar la descarga del certificado de la Autoridad de Certificación Subordinada AR FII.",
         btn: "https://ura.procert.net.ve/pscprocert/Cert_FII.cer",
@@ -40,5 +31,41 @@ export const acLinks = [
         btn: "https://ura.procert.net.ve/lcr/procertca.crl",
         textBtn: "Descargar",
         id: "link-005"
+    },
+]
+
+export const acLinksEN = [
+    {
+        text: "Procert CA Certification Chain: Is made up of the root certificate of the Certification Authority (CA), SUSCERTE and the root certificate of the Subordinated Certification Authority PROCERT.",
+        btn: "https://ura.procert.net.ve/pscprocert/cadena.p7b",
+        textBtn: "Download"
+    },
+
+    {
+        text: "Root Certificate of the Subordinate CA (PROCERT): Through the following link you may download the Root Certificate of the Subordinate Certification Authority PROCERT.",
+        btn: "https://ura.procert.net.ve/pscprocert/SUSCERTE.crt",
+        textBtn: "Base 64",
+        id: "link-001-EN"
+    },
+
+    {
+        text: "Certificate of the Subordinate CA AR FII: Through this link will be able download the certificate of the Certification Authority Subordinate AR FII.",
+        btn: "https://ura.procert.net.ve/pscprocert/Cert_FII.cer",
+        textBtn: "Download",
+        id: "link-003-EN"
+    },
+
+    {
+        text: "Certificates issued by the CA PROCERT: Through the following link you may download the certificates issued by the Subordinate Certification Authority PROCERT.",
+        btn: "https://ura.procert.net.ve/ura/public/",
+        textBtn: "Consult",
+        id: "link-004-EN"
+    },
+
+    {
+        text: "Publication of the Certificates Revoked by the CA PROCERT: Through the following link you may download the List of Revoked Certificates (LRC) of the Subordinate Certification Authority PROCERT.",
+        btn: "https://ura.procert.net.ve/lcr/procertca.crl",
+        textBtn: "Download",
+        id: "link-005-EN"
     },
 ]

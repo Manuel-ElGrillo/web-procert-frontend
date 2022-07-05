@@ -1,41 +1,52 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
-import checkListImg from "../../../assets/img/checklist.png"
-import videoimg from "../../../assets/img/video.png"
-import questionImg from "../../../assets/img/question.png"
-import badgeImg from "../../../assets/img/badge.png"
-import cancelImg from "../../../assets/img/cancel.png"
+import checkListImg from "../../../assets/img/clipboard.png"
+import videoimg from "../../../assets/img/tutorial.png"
+import questionImg from "../../../assets/img/information.png"
+import badgeImg from "../../../assets/img/cert.png"
+import cancelImg from "../../../assets/img/file.png"
 import "./SecundaryNavBar.css"
 
-const SecundaryNavBar = () => {
+const SecundaryNavBar = ({reqHref, 
+                          reqText, 
+                          certHref, 
+                          certText, 
+                          faqHref, 
+                          faqText, 
+                          revokedHref, 
+                          revokedText, 
+                          tutorialHref, 
+                          tutorialText}
+) => {
+
   return (
     <>
     
         <nav className='secundary-navbar'>
-            <NavLink to={"/requisitos"}>
+            <NavLink to={reqHref}>
                 <img src={checkListImg} alt="Checklist" />
-                <p>Requisitos</p> 
+                <p>{reqText}</p> 
             </NavLink>
 
-            <a href={"https://ura.procert.net.ve/pscprocert/cadena.p7b"}>
+            <a href={certHref}>
               <img src={badgeImg} alt="Badge" />
-              <p>Certificado Raíz SUSCERTE</p>
+              <p>{certText}</p>
             </a>
 
-            <HashLink to={"/informacion#faq"}>
+            <HashLink to={faqHref}>
               <img src={questionImg} alt="FAQ" />
-              <p>FAQ</p>
+              <p>{faqText}</p>
             </HashLink>
 
-            <a href={"https://ura.procert.net.ve/lcr/procertca.crl"}>
+            <a href={revokedHref}>
               <img src={cancelImg} alt="Certificados revocados" />
-              <p>Lista de Certificados Revocados</p>
+              <p>{revokedText}</p>
             </a>
 
-            <NavLink to={"/Tutoriales"}>
+            <NavLink to={tutorialHref}>
                 <img src={videoimg} alt="Tutorials" />
-                <p>Tutoriales</p> 
+                <p>{tutorialText}</p> 
             </NavLink>
             
         </nav>

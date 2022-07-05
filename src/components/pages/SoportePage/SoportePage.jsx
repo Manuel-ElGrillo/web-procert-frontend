@@ -12,10 +12,10 @@ import { securityCerts } from '../../../data/certifications/certificados-segurid
 import microsoftIcon from "../../../assets/img/microsoft.png"
 import linuxIcon from "../../../assets/img/linux.png"
 import appleIcon from "../../../assets/img/apple.png"
-import browserIcon from "../../../assets/img/browser.png"
-import docIcon from "../../../assets/img/documents.png"
+import browserIcon from "../../../assets/img/globe.png"
+import docIcon from "../../../assets/img/docs.png"
 import pdfIcon from "../../../assets/img/pdf.png"
-import mailIcon from "../../../assets/img/email-2.png"
+import mailIcon from "../../../assets/img/email.png"
 import logo2 from "../../../assets/img/logo-2.png"
 
 import "./SoportePage.css"

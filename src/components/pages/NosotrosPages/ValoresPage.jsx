@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../../layout/Layout'
 import "./Nosotros.css"
 
 const ValoresPage = () => {
@@ -7,11 +6,11 @@ const ValoresPage = () => {
   return (
     <>
     
-      <Layout>
+      
 
-        <section className='nosotros-page'>
+        
 
-          <div className='nosotros-container'>
+          <div className='nosotros-container' id='valores'>
             <h2>Valores</h2>
             <p>
               ° Ética = En la gestión regular de la empresa y en las relaciones con proveedores y usuarios. <br />
@@ -20,9 +19,9 @@ const ValoresPage = () => {
             </p>
           </div>
 
-        </section>
+      
 
-      </Layout>
+      
 
     </>
   )

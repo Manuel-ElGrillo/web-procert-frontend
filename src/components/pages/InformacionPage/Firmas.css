@@ -5,10 +5,18 @@
 
 .signatures-content h3 {
     font-size: 1.3rem;
-    border-bottom: solid 1px var(--darkBlue1);
-    padding-bottom: .3rem;
+    background-color: var(--darkBlue2);
+    color: var(--white);
+    padding: 1rem 2rem;
+    border-radius: .4rem;
     margin-left: 1rem;
-    width: fit-content;
+    margin: 1rem auto;
+    width: 80%;
+}
+
+.signatures-content h3:hover {
+    cursor: pointer;
+    background-color: var(--blue1);
 }
 
 .signatures-content h4 {

@@ -5,6 +5,7 @@
     background-size: cover;
     background-attachment: fixed;
     margin-bottom: 2rem;
+    position: relative;
 }
 
 .purchases h1 {
@@ -61,17 +62,22 @@
     padding-bottom: .2rem;
 }
 
+.CTA-AR {
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .CTA-AR a {
     background-color: var(--green1);
     display: block;
     width: 90%;
     margin: 2rem auto;
     text-align: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
     border-radius: .4rem;
     color: var(--black);
     text-decoration: none;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     transition: all 200ms;
 }
 

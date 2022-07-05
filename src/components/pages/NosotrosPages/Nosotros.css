@@ -3,28 +3,33 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 22rem;
+    background-attachment: fixed;
     width: 100%;
 }
 
 .nosotros-container {
     margin: 0 auto;
     width: 90%;
+    border-bottom: solid 2px var(--darkBlue1);
+}
+
+.nosotros-container:last-child {
+    border-bottom: none;
 }
 
 .nosotros-page h2 {
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 0;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .nosotros-page p {
     margin: 0;
-    padding: 1rem;
+    padding: 0 0 2rem 0;
     text-align: justify;
-    font-size: 1.6rem;
-    line-height: 1.5;
+    font-size: 1.3rem;
+    line-height: 1.8;
 }
 
 /* Media Querys */

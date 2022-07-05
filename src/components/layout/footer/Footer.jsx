@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import youtubeLogo from "../../../assets/img/youtube.png"
 import twitterLogo from "../../../assets/img/twitter.png"
-import emailLogo from "../../../assets/img/email.png"
+import emailLogo from "../../../assets/img/arroba.png"
 import phoneLogo from "../../../assets/img/phone.png"
 import "./Footer.css"
 
@@ -24,10 +24,10 @@ const Footer = () => {
           <div className='footer-content__us'>
             <h5>Nosotros</h5>
             <div className='footer-content__us-link'>
-              <Link to={"/mision"}>- Nuestra Misión</Link>
-              <Link to={"/vision"}>- Nuestra Visión</Link>
-              <Link to={"/valores"}>- Nuestros Valores</Link>
-              <Link to={"/hsm"}>- HSM</Link>
+              <HashLink to={"/nosotros#mision"}>- Nuestra Misión</HashLink>
+              <HashLink to={"/nosotros#vision"}>- Nuestra Visión</HashLink>
+              <HashLink to={"/nosotros#valores"}>- Nuestros Valores</HashLink>
+              <HashLink to={"/nosotros#hsm"}>- HSM</HashLink>
             </div>  
           </div>
 
@@ -49,7 +49,7 @@ const Footer = () => {
 
             <div className='footer__RRSS-content'>
               <img src={phoneLogo} alt="Phone" />
-              <p>{"(+58) 0212-267-4880"}</p>
+              <p>{"(+58) 212-267-4880"}</p>
             </div>
           </div>
 

@@ -112,3 +112,119 @@ export const declarations = [
     },
 
 ]
+
+export const declarationsEN = [
+
+    {
+        title: "Master List", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/ListaMaestra.pdf",
+        text: "View List",
+        id: "Master-List"
+    },
+
+    {
+        title: "Certification Practice Statement (CPS)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0003.pdf", 
+        text: "View Declaration",
+        id: "CPS"
+    },
+
+    {
+        title: "Electronic Signature Certificate for Company Employee (PC-1)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0006.pdf",
+        text: "View Certificate",
+        id: "PC-1-EN"
+    },
+
+    {
+        title: "Electronic Signature Certificate for Representatives of Public Enterprises (PC-2)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0007.pdf", 
+        text: "View Certificate",
+        id: "PC-2-EN"
+    },
+
+    {
+        title: "Electronic Signature Certificate for Representatives of Private Enterprises (PC-3)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0008.pdf",
+        text: "View Certificate",
+        id: "PC-3-EN"
+    },
+
+    {
+        title: "Electronic Signature Certificate for Natural Person (PC-4)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0009.pdf", 
+        text: "View Certificate",
+        id: "PC-4-EN"
+    },
+
+    {
+        title: "Certificate of Electronic Signature for Qualified Professionals (PC-5)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0010.pdf", 
+        text: "View Certificate",
+        id: "PC-5-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Secure Server (SSL) (PC-6)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0011.pdf", 
+        text: "View Certificate",
+        id: "PC-6-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Logical Access Control (PC-7)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0012.pdf", 
+        text: "View Certificate",
+        id: "PC-7-EN"
+    },
+
+    {
+        title: "Electronic Signature Certificate for Public Official (PC-8)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0013.pdf", 
+        text: "View Certificate",
+        id: "PC-8-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Transactions (PC-9)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0014.pdf", 
+        text: "View Certificate",
+        id: "PC-9-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Electronic Invoice (PC-10)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0015.pdf", 
+        text: "View Certificate",
+        id: "PC-10-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Electronic Banking (PC-11)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0016.pdf", 
+        text: "View Certificate",
+        id: "PC-11-EN"
+    },
+
+    {
+        title: "Electronic Software Signature Certificate (PC-12)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0017.pdf", 
+        text: "View Certificate",
+        id: "PC-12-EN"
+    },
+
+    {
+        title: "Electronic Certificate for Virtual Private Networks (PC-13)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0018.pdf", 
+        text: "View Certificate",
+        id: "PC-13-EN"
+    },
+
+    {
+        title: "Electronic Certificate of Signature for Virtual Office (PC-15)", 
+        archive: "/documents/declaracion-de-practicas-de-certificacion/AC-D-0020.pdf", 
+        text: "View Certificate",
+        id: "PC-15"
+    },
+
+]

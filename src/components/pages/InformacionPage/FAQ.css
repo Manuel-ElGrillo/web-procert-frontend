@@ -3,7 +3,7 @@
 }
 
 .question p {
-    background-color: var(--blue1);
+    background-color: var(--darkBlue2);
     color: var(--white);
     padding: 1rem;
     font-size: 1.2rem;
@@ -11,7 +11,7 @@
 }
 
 .question p:hover {
-    background-color: var(--darkBlue2);
+    background-color: var(--blue1);
     cursor: pointer;
 }
 

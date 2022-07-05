@@ -24,20 +24,16 @@ const Header = () => {
                    className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Inicio
           </NavLink>
 
-          <NavLink to={"/compras"}
-                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Compras
-          </NavLink>
-
           <NavLink to={"/servicios"}
                    className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Servicios
           </NavLink>
 
-          <NavLink to={"/informacion"}
-                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Información
+          <NavLink to={"/compras"}
+                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Compras
           </NavLink>
 
-          <NavLink to={"/soporte"} 
-                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Soporte
+          <NavLink to={"/informacion"}
+                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Información
           </NavLink>
 
           <NavLink to={"/documentacion"}
@@ -46,6 +42,10 @@ const Header = () => {
 
           <NavLink to={"/enlaces"}
                    className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Enlaces de Interés
+          </NavLink>
+
+          <NavLink to={"/soporte"} 
+                   className={ ({isActive}) => isActive ? "header_nav-bar__active " : "header_nav-bar__link" }>Soporte
           </NavLink>
 
           <div>
